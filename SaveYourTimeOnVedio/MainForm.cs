@@ -15,6 +15,7 @@ namespace SaveYourTimeOnVedio
         public MainForm()
         {
             InitializeComponent();
+            this.CenterToScreen();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -30,6 +31,12 @@ namespace SaveYourTimeOnVedio
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void newCategoryMenu_Click(object sender, EventArgs e)
+        {
+            AddCategoryForm addCategoryForm = new AddCategoryForm();
+            addCategoryForm.ShowDialog();
         }
     }
 }

@@ -118,42 +118,54 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="decryptBtn.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>400, 246</value>
+  <data name="decryptBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>400, 261</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="decryptBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 23</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="decryptBtn.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
+  <data name="decryptBtn.Text" xml:space="preserve">
     <value>Decrypt-&gt;</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;decryptBtn.Name" xml:space="preserve">
+    <value>decryptBtn</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;decryptBtn.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;decryptBtn.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;decryptBtn.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="newCategoryMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="newCategoryMenu.Text" xml:space="preserve">
+    <value>New category</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>896, 24</value>
+    <value>910, 24</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -173,26 +185,14 @@
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
-  <data name="newToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="newToolStripMenuItem.Text" xml:space="preserve">
-    <value>New category</value>
-  </data>
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>132, 17</value>
   </metadata>
   <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 495</value>
+    <value>0, 535</value>
   </data>
   <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>896, 22</value>
+    <value>910, 22</value>
   </data>
   <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -222,12 +222,12 @@
     <value>6, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>896, 517</value>
+    <value>910, 557</value>
   </data>
-  <data name="treeView2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="decryptedFileView.Location" type="System.Drawing.Point, System.Drawing">
     <value>514, 43</value>
   </data>
-  <data name="treeView2.Nodes" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="decryptedFileView.Nodes" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
@@ -249,7 +249,7 @@
         b2RlMwkEAAAACRIAAAAA/////wkEAAAA/////wkEAAAAAAAAAAs=
 </value>
   </data>
-  <data name="treeView2.Nodes1" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="decryptedFileView.Nodes1" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
@@ -271,7 +271,7 @@
         b2RlNwkEAAAACRIAAAAA/////wkEAAAA/////wkEAAAAAAAAAAs=
 </value>
   </data>
-  <data name="treeView2.Nodes2" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="decryptedFileView.Nodes2" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
@@ -281,7 +281,7 @@
         /wkEAAAAAAAAAAs=
 </value>
   </data>
-  <data name="treeView2.Nodes3" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="decryptedFileView.Nodes3" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
@@ -291,7 +291,7 @@
         /wkEAAAAAAAAAAs=
 </value>
   </data>
-  <data name="treeView2.Nodes4" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="decryptedFileView.Nodes4" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
@@ -309,28 +309,28 @@
         AAAACQ0AAAAA/////wkEAAAA/////wkEAAAAAAAAAAs=
 </value>
   </data>
-  <data name="treeView2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>370, 449</value>
+  <data name="decryptedFileView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 476</value>
   </data>
-  <data name="treeView2.TabIndex" type="System.Int32, mscorlib">
+  <data name="decryptedFileView.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;treeView2.Name" xml:space="preserve">
-    <value>treeView2</value>
+  <data name="&gt;&gt;decryptedFileView.Name" xml:space="preserve">
+    <value>decryptedFileView</value>
   </data>
-  <data name="&gt;&gt;treeView2.Type" xml:space="preserve">
+  <data name="&gt;&gt;decryptedFileView.Type" xml:space="preserve">
     <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;treeView2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;decryptedFileView.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;treeView2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;decryptedFileView.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="treeView1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="categoryView.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 43</value>
   </data>
-  <data name="treeView1.Nodes" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="categoryView.Nodes" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
@@ -352,7 +352,7 @@
         b2RlMwkEAAAACRIAAAAA/////wkEAAAA/////wkEAAAAAAAAAAs=
 </value>
   </data>
-  <data name="treeView1.Nodes1" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="categoryView.Nodes1" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
@@ -374,7 +374,7 @@
         b2RlNwkEAAAACRIAAAAA/////wkEAAAA/////wkEAAAAAAAAAAs=
 </value>
   </data>
-  <data name="treeView1.Nodes2" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="categoryView.Nodes2" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
@@ -384,7 +384,7 @@
         /wkEAAAAAAAAAAs=
 </value>
   </data>
-  <data name="treeView1.Nodes3" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="categoryView.Nodes3" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
@@ -394,7 +394,7 @@
         /wkEAAAAAAAAAAs=
 </value>
   </data>
-  <data name="treeView1.Nodes4" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="categoryView.Nodes4" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAAB1TeXN0
@@ -412,22 +412,22 @@
         AAAACQ0AAAAA/////wkEAAAA/////wkEAAAAAAAAAAs=
 </value>
   </data>
-  <data name="treeView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>370, 449</value>
+  <data name="categoryView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 476</value>
   </data>
-  <data name="treeView1.TabIndex" type="System.Int32, mscorlib">
+  <data name="categoryView.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;treeView1.Name" xml:space="preserve">
-    <value>treeView1</value>
+  <data name="&gt;&gt;categoryView.Name" xml:space="preserve">
+    <value>categoryView</value>
   </data>
-  <data name="&gt;&gt;treeView1.Type" xml:space="preserve">
+  <data name="&gt;&gt;categoryView.Type" xml:space="preserve">
     <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;treeView1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;categoryView.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;treeView1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;categoryView.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
@@ -442,10 +442,10 @@
   <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;newToolStripMenuItem.Name" xml:space="preserve">
-    <value>newToolStripMenuItem</value>
+  <data name="&gt;&gt;newCategoryMenu.Name" xml:space="preserve">
+    <value>newCategoryMenu</value>
   </data>
-  <data name="&gt;&gt;newToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;newCategoryMenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;fileSystemWatcher1.Name" xml:space="preserve">
@@ -454,10 +454,19 @@
   <data name="&gt;&gt;fileSystemWatcher1.Type" xml:space="preserve">
     <value>System.IO.FileSystemWatcher, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;helpProvider1.Name" xml:space="preserve">
+    <value>helpProvider1</value>
+  </data>
+  <data name="&gt;&gt;helpProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <metadata name="helpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>407, 17</value>
+  </metadata>
 </root>

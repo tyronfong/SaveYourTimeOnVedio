@@ -29,24 +29,25 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.button1 = new System.Windows.Forms.Button();
+            this.decryptBtn = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newCategoryMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
-            this.treeView1 = new System.Windows.Forms.TreeView();
-            this.treeView2 = new System.Windows.Forms.TreeView();
+            this.categoryView = new System.Windows.Forms.TreeView();
+            this.decryptedFileView = new System.Windows.Forms.TreeView();
+            this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // decryptBtn
             // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            resources.ApplyResources(this.decryptBtn, "decryptBtn");
+            this.decryptBtn.Name = "decryptBtn";
+            this.decryptBtn.UseVisualStyleBackColor = true;
+            this.decryptBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // menuStrip1
             // 
@@ -58,15 +59,16 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.newToolStripMenuItem});
+            this.newCategoryMenu});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
             this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
-            // newToolStripMenuItem
+            // newCategoryMenu
             // 
-            this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            resources.ApplyResources(this.newToolStripMenuItem, "newToolStripMenuItem");
+            this.newCategoryMenu.Name = "newCategoryMenu";
+            resources.ApplyResources(this.newCategoryMenu, "newCategoryMenu");
+            this.newCategoryMenu.Click += new System.EventHandler(this.newCategoryMenu_Click);
             // 
             // statusStrip1
             // 
@@ -78,39 +80,40 @@
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
             // 
-            // treeView1
+            // categoryView
             // 
-            resources.ApplyResources(this.treeView1, "treeView1");
-            this.treeView1.Name = "treeView1";
-            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView1.Nodes"))),
-            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView1.Nodes1"))),
-            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView1.Nodes2"))),
-            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView1.Nodes3"))),
-            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView1.Nodes4")))});
-            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
+            resources.ApplyResources(this.categoryView, "categoryView");
+            this.categoryView.Name = "categoryView";
+            this.categoryView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("categoryView.Nodes"))),
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("categoryView.Nodes1"))),
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("categoryView.Nodes2"))),
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("categoryView.Nodes3"))),
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("categoryView.Nodes4")))});
+            this.categoryView.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
-            // treeView2
+            // decryptedFileView
             // 
-            resources.ApplyResources(this.treeView2, "treeView2");
-            this.treeView2.Name = "treeView2";
-            this.treeView2.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView2.Nodes"))),
-            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView2.Nodes1"))),
-            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView2.Nodes2"))),
-            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView2.Nodes3"))),
-            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView2.Nodes4")))});
+            resources.ApplyResources(this.decryptedFileView, "decryptedFileView");
+            this.decryptedFileView.Name = "decryptedFileView";
+            this.decryptedFileView.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("decryptedFileView.Nodes"))),
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("decryptedFileView.Nodes1"))),
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("decryptedFileView.Nodes2"))),
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("decryptedFileView.Nodes3"))),
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("decryptedFileView.Nodes4")))});
             // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.treeView2);
-            this.Controls.Add(this.treeView1);
+            this.Controls.Add(this.decryptedFileView);
+            this.Controls.Add(this.categoryView);
             this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.decryptBtn);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -122,14 +125,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button decryptBtn;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem newCategoryMenu;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.IO.FileSystemWatcher fileSystemWatcher1;
-        private System.Windows.Forms.TreeView treeView1;
-        private System.Windows.Forms.TreeView treeView2;
+        private System.Windows.Forms.TreeView categoryView;
+        private System.Windows.Forms.TreeView decryptedFileView;
+        private System.Windows.Forms.HelpProvider helpProvider1;
     }
 }
 
